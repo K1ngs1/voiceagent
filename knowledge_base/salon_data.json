@@ -1,0 +1,304 @@
+{
+    "salon": {
+        "name": "Luxe Beauty Salon",
+        "tagline": "Where Beauty Meets Elegance",
+        "phone": "+1 (555) 123-4567",
+        "email": "hello@luxebeautysalon.com",
+        "website": "https://luxebeautysalon.com"
+    },
+    "locations": [
+        {
+            "name": "Luxe Beauty Salon – Downtown",
+            "address": "123 Main Street, Suite 200, Los Angeles, CA 90012",
+            "phone": "+1 (555) 123-4567",
+            "hours": {
+                "monday": "9:00 AM – 7:00 PM",
+                "tuesday": "9:00 AM – 7:00 PM",
+                "wednesday": "9:00 AM – 8:00 PM",
+                "thursday": "9:00 AM – 8:00 PM",
+                "friday": "9:00 AM – 8:00 PM",
+                "saturday": "9:00 AM – 6:00 PM",
+                "sunday": "10:00 AM – 5:00 PM"
+            },
+            "parking": "Complimentary valet parking available on weekends. Street metered parking on weekdays."
+        }
+    ],
+    "services": [
+        {
+            "name": "Women's Haircut & Style",
+            "category": "Hair",
+            "description": "Precision haircut with shampoo, conditioning treatment, and blowout styling.",
+            "duration_minutes": 60,
+            "price": 85
+        },
+        {
+            "name": "Men's Haircut",
+            "category": "Hair",
+            "description": "Classic or modern men's cut with hot towel finish.",
+            "duration_minutes": 30,
+            "price": 45
+        },
+        {
+            "name": "Kids Haircut (12 & under)",
+            "category": "Hair",
+            "description": "Gentle haircut for children ages 12 and under.",
+            "duration_minutes": 30,
+            "price": 30
+        },
+        {
+            "name": "Full Color",
+            "category": "Color",
+            "description": "All-over single-process color application with premium products.",
+            "duration_minutes": 90,
+            "price": 150
+        },
+        {
+            "name": "Highlights – Partial",
+            "category": "Color",
+            "description": "Face-framing highlights or partial foils for dimensional color.",
+            "duration_minutes": 90,
+            "price": 130
+        },
+        {
+            "name": "Highlights – Full",
+            "category": "Color",
+            "description": "Full head of highlights or balayage for a sun-kissed look.",
+            "duration_minutes": 120,
+            "price": 200
+        },
+        {
+            "name": "Balayage",
+            "category": "Color",
+            "description": "Hand-painted highlights for a natural, graduated color effect.",
+            "duration_minutes": 150,
+            "price": 250
+        },
+        {
+            "name": "Blowout",
+            "category": "Styling",
+            "description": "Professional shampoo and blowout styling.",
+            "duration_minutes": 45,
+            "price": 55
+        },
+        {
+            "name": "Updo / Special Occasion Style",
+            "category": "Styling",
+            "description": "Elegant updo or special event styling. Consultation included.",
+            "duration_minutes": 60,
+            "price": 95
+        },
+        {
+            "name": "Deep Conditioning Treatment",
+            "category": "Treatments",
+            "description": "Intensive moisture or repair treatment for damaged hair.",
+            "duration_minutes": 30,
+            "price": 40
+        },
+        {
+            "name": "Keratin Smoothing Treatment",
+            "category": "Treatments",
+            "description": "Professional keratin treatment for frizz-free, silky smooth hair lasting 3-5 months.",
+            "duration_minutes": 150,
+            "price": 300
+        },
+        {
+            "name": "Classic Manicure",
+            "category": "Nails",
+            "description": "Nail shaping, cuticle care, hand massage, and polish application.",
+            "duration_minutes": 30,
+            "price": 35
+        },
+        {
+            "name": "Gel Manicure",
+            "category": "Nails",
+            "description": "Long-lasting gel polish application with LED curing.",
+            "duration_minutes": 45,
+            "price": 50
+        },
+        {
+            "name": "Classic Pedicure",
+            "category": "Nails",
+            "description": "Foot soak, exfoliation, nail care, calf massage, and polish.",
+            "duration_minutes": 45,
+            "price": 50
+        },
+        {
+            "name": "Luxury Spa Pedicure",
+            "category": "Nails",
+            "description": "Deluxe pedicure with paraffin wax, extended massage, and hot stone treatment.",
+            "duration_minutes": 60,
+            "price": 75
+        },
+        {
+            "name": "Brow Shaping",
+            "category": "Beauty",
+            "description": "Expert eyebrow waxing or threading for a polished look.",
+            "duration_minutes": 15,
+            "price": 25
+        },
+        {
+            "name": "Full Face Waxing",
+            "category": "Beauty",
+            "description": "Gentle waxing for lip, chin, brows, and sideburn areas.",
+            "duration_minutes": 30,
+            "price": 55
+        },
+        {
+            "name": "Classic Facial",
+            "category": "Skin",
+            "description": "Cleansing, exfoliation, extraction, mask, and moisturizer tailored to your skin type.",
+            "duration_minutes": 60,
+            "price": 90
+        },
+        {
+            "name": "Anti-Aging Facial",
+            "category": "Skin",
+            "description": "Advanced facial with peptides, retinol, and LED light therapy.",
+            "duration_minutes": 75,
+            "price": 140
+        }
+    ],
+    "stylists": [
+        {
+            "name": "Sophia Martinez",
+            "title": "Senior Stylist & Colorist",
+            "specialties": [
+                "Balayage",
+                "Full Color",
+                "Highlights",
+                "Women's Haircut & Style"
+            ],
+            "bio": "Sophia has over 12 years of experience and is a certified Redken color specialist. She's known for creating stunning dimensional color and personalized looks.",
+            "availability": [
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday"
+            ]
+        },
+        {
+            "name": "James Chen",
+            "title": "Master Barber & Stylist",
+            "specialties": [
+                "Men's Haircut",
+                "Women's Haircut & Style",
+                "Blowout"
+            ],
+            "bio": "James brings 8 years of precision cutting expertise. He specializes in modern fades, textured cuts, and classic barbering techniques.",
+            "availability": [
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ]
+        },
+        {
+            "name": "Aisha Williams",
+            "title": "Nail Artist & Esthetician",
+            "specialties": [
+                "Gel Manicure",
+                "Classic Manicure",
+                "Classic Pedicure",
+                "Luxury Spa Pedicure",
+                "Brow Shaping"
+            ],
+            "bio": "Aisha is a licensed esthetician and nail artist with 6 years of experience. She is passionate about nail art and self-care.",
+            "availability": [
+                "monday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ]
+        },
+        {
+            "name": "Elena Rossi",
+            "title": "Skin Care Specialist",
+            "specialties": [
+                "Classic Facial",
+                "Anti-Aging Facial",
+                "Full Face Waxing",
+                "Brow Shaping"
+            ],
+            "bio": "Elena is a board-certified esthetician with advanced training in anti-aging treatments and skin rejuvenation. She brings 10 years of medical spa experience.",
+            "availability": [
+                "monday",
+                "tuesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ]
+        },
+        {
+            "name": "David Park",
+            "title": "Stylist & Treatment Specialist",
+            "specialties": [
+                "Keratin Smoothing Treatment",
+                "Deep Conditioning Treatment",
+                "Women's Haircut & Style",
+                "Blowout",
+                "Updo / Special Occasion Style"
+            ],
+            "bio": "David specializes in hair health and restoration. He is a certified Cezanne keratin treatment provider with 7 years of salon experience.",
+            "availability": [
+                "monday",
+                "tuesday",
+                "wednesday",
+                "saturday",
+                "sunday"
+            ]
+        }
+    ],
+    "policies": {
+        "cancellation": "We require at least 24 hours' notice for cancellations. Cancellations made less than 24 hours before the appointment will be charged a 50% cancellation fee.",
+        "late_arrival": "If you arrive more than 15 minutes late, we may need to reschedule your appointment to ensure quality service for all clients.",
+        "deposits": "A credit card is required to hold appointments for services over $150. No charge will be made unless you no-show or cancel late.",
+        "refunds": "We stand behind our work. If you are not satisfied with your service, please contact us within 7 days for a complimentary correction.",
+        "age_policy": "Clients under 16 must be accompanied by a parent or guardian.",
+        "health_and_safety": "All tools are sanitized between clients. We use professional-grade disinfection protocols. Please let us know about any allergies or sensitivities before your appointment."
+    },
+    "faqs": [
+        {
+            "question": "Do I need to make an appointment?",
+            "answer": "We recommend booking an appointment to guarantee your preferred time and stylist. Walk-ins are welcome based on availability."
+        },
+        {
+            "question": "What forms of payment do you accept?",
+            "answer": "We accept all major credit cards, debit cards, Apple Pay, Google Pay, and cash."
+        },
+        {
+            "question": "Do you offer gift cards?",
+            "answer": "Yes! Gift cards are available in any amount and can be purchased in-salon or on our website."
+        },
+        {
+            "question": "What should I do before my color appointment?",
+            "answer": "Please arrive with dry, unwashed hair (no product). If you've used box color recently, let your stylist know during booking so we can plan accordingly."
+        },
+        {
+            "question": "Is there free parking?",
+            "answer": "We offer complimentary valet parking on weekends. On weekdays, street metered parking is available nearby."
+        },
+        {
+            "question": "Can I bring my child?",
+            "answer": "Children are welcome! We offer kids' haircuts for ages 12 and under. For safety, children must be supervised at all times."
+        },
+        {
+            "question": "Do you do wedding or bridal services?",
+            "answer": "Absolutely! We offer bridal hair and makeup packages. We recommend booking a trial session at least one month before the wedding. Contact us for custom bridal pricing."
+        },
+        {
+            "question": "How do I reschedule my appointment?",
+            "answer": "You can call us or let our AI assistant help you reschedule. Just provide your name and we'll find your booking and move it to your preferred time."
+        },
+        {
+            "question": "What is your tip policy?",
+            "answer": "Tipping is always appreciated but never expected. The industry standard is 15-20%. Tips can be added to your card payment or given in cash."
+        },
+        {
+            "question": "Do you use cruelty-free products?",
+            "answer": "Yes, we are committed to using cruelty-free, salon-grade products from brands like Redken, Olaplex, and Davines."
+        }
+    ]
+}
